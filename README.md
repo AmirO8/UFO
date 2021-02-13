@@ -12,5 +12,5 @@ To use this webpage simply enter a any information you would like to see and "cl
 
 # Summary
 
-The data.js could use more entries as it only shows data from Januray 2010. We cannot filter by duration or comments either but that can be easliy adjusted by creating another <li lablel.
+The data.js could use more entries as it only shows data from Januray 2010. We cannot filter by duration or comments either but that can be easliy adjusted by creating another <li lablel. I can use an href to link to other webpages that have information about UFO, whether it be article, videos or blogs.
 
