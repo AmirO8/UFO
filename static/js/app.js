@@ -1,6 +1,5 @@
 // import the data from data.js
 const tableData = data;
-
 // Reference the HTML table using d3
 var tbody = d3.select("tbody");
 
@@ -25,6 +24,7 @@ function buildTable(data) {
 }
 
 function handleClick() {
+  // console.log("handleClick")
   // Grab the datetime value from the filter
   let date = d3.select("#datetime").property("value");
   let filteredData = tableData;
@@ -41,4 +41,8 @@ function handleClick() {
   // @NOTE: If no date was entered, then filteredData will
   // just be the original tableData.
   buildTable(filteredData);
+
 };
+
+d3.selectAll("#filter-btn").on("click", handleClick);
+buildTable(tableData)
